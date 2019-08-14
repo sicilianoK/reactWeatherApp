@@ -41,9 +41,7 @@ class App extends React.Component{
                     description: undefined,
                     error: "Please enter the value"
                 })
-            }
-
-        ;
+            };
     }
     catch (err) {
         console.log('fetch failed', err);
